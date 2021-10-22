@@ -1,4 +1,4 @@
-# Handwritten Signatures detection and recognition project
+# Handwritten Signatures (and logo) detection and recognition project
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
