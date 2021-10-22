@@ -76,6 +76,7 @@ Each line of the txt file contains class x_center y_center width height. Box coo
   <ol>
     <li>
       <a href="#Data">Data</a>
+      <a href="#Usage">Usage</a>
     </li>
    
   </ol>
@@ -89,6 +90,13 @@ Given for the project:
 >Test
 >Train
 >Train-xml
+
+
+<!-- Usage -->
+## Usage
+
+First, use 'preprocess_to_yolo' to prepare your data, just adapt pathes. Could output 'tobacco cleaned.csv'
+Then you can use 'launch yolo'. Google colab could be useful
 
 
 Produced:
