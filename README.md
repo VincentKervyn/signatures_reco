@@ -42,7 +42,7 @@ Clone the official [YOLOv5 repo] and install the requirements using the `require
 We need to create a `tobacco_data.yaml` and add the path of training `train:` and validation `valid:` directories, number of classes `nc:` and class names `['DLLogo', 'DLSignature']` and add this file to the `yolov5` directory we cloned.  
 
 Now, we have to select a pre-trained model from the available pre-trained checkpoints. These `model.yaml` files are present inside `yolov5\models`. I have used `yolov5x` for performing my experiments.  
-![Yolo models](../../Images/yolo_model_list.png)  
+ 
   
 **Training arguments**  
 `--img 640` is the width of the images.  
@@ -76,8 +76,8 @@ Each line of the txt file contains class x_center y_center width height. Box coo
   <ol>
     <li>
       <a href="#Data">Data</a>
-    <li>
-    </li>  
+    </li>
+    <li>  
       <a href="#Usage">Usage</a>
     </li>
    
@@ -94,6 +94,12 @@ Given for the project:
 >Train-xml
 
 
+Produced:
+>Scaled: originals images are resizd to reduced training time.
+
+
+>tobacco_yolo_format: scaled images are preprocess and placed in correct directories to be used for yolov5 
+
 <!-- Usage -->
 ## Usage
 
@@ -101,9 +107,7 @@ First, use 'preprocess_to_yolo' to prepare your data, just adapt pathes. Could o
 Then you can use 'launch yolo'. Google colab could be useful
 
 
-Produced:
->Scaled: originals images are resizd to reduced training time.<
->tobacco_yolo_format: scaled images are preprocess and placed in correct directories to be used for yolov5 
+
 
 
 
