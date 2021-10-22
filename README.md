@@ -109,7 +109,8 @@ Then you can use 'launch yolo'. Google colab could be useful
 
 
 
-
+check my google colab to see how far I went: model trained with 10 epoch and tested on test files provided
+https://colab.research.google.com/drive/1PIg7aLsZ8439Inz49lPfm8StOwaKPiAP?usp=sharing
 
 
 thanks to https://github.com/amaljoseph/Signature-Verification_System_using_YOLOv5-and-CycleGAN 
