@@ -112,7 +112,7 @@ Then you can use 'launch yolo'. Google colab could be useful
 
 
 
-
+thanks to https://github.com/amaljoseph/Signature-Verification_System_using_YOLOv5-and-CycleGAN 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
