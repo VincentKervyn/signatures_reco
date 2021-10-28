@@ -1,4 +1,4 @@
-# Handwritten Signatures (and logo) detection and recognition project
+## Handwritten Signatures (and logo) detection and recognition project
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -11,14 +11,14 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
-  <h3 align="center">Yolov5v</h3>
+  <h3>Yolov5v</h3>
 This project needs some additional work 
-  <p align="center">
-     YOLO uses convolutional neural networks instead of the region-based methods employed by alogirithms like R-CNN. The convolutional network Only Look Once, ie it requires only one forward pass through the neural network to make predictions. It makes two predictions, the class of object and the position of the objects present in the image.
+
+YOLO uses convolutional neural networks instead of the region-based methods employed by alogirithms like R-CNN. The convolutional network Only Look Once, ie it requires only one forward pass through the neural network to make predictions. It makes two predictions, the class of object and the position of the objects present in the image.
 YOLO divides an image into nxn regions and predicts whether a target class is present in each region or not. It also predicts the bounding box coordinates of the target class. Non-max suppression is used to prevent same object being detected multiple times.
 Refer this video for a better, in-depth understanding of YOLO models. The original YOLO paper could be accessed here and YOLOv5 repo could be found here
 
@@ -89,9 +89,10 @@ Each line of the txt file contains class x_center y_center width height. Box coo
 <!-- Data -->
 ## Data
 Given for the project:
->Test
->Train
->Train-xml
+
+- [x]Test
+- [x]Train
+- [x]Train-xml
 
 
 Produced:
