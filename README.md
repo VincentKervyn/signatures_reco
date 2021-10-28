@@ -7,16 +7,11 @@
 -->
 
 
-
-
 <!-- PROJECT LOGO -->
-<br />
-
-  <a href="https://github.com/othneildrew/Best-README-Template">
-  </a>
-
+  
   <h3>Yolov5v</h3>
-This project needs some additional work 
+-  This project needs some additional work 
+
 
 YOLO uses convolutional neural networks instead of the region-based methods employed by alogirithms like R-CNN. The convolutional network Only Look Once, ie it requires only one forward pass through the neural network to make predictions. It makes two predictions, the class of object and the position of the objects present in the image.
 YOLO divides an image into nxn regions and predicts whether a target class is present in each region or not. It also predicts the bounding box coordinates of the target class. Non-max suppression is used to prevent same object being detected multiple times.
@@ -46,7 +41,7 @@ Now, we have to select a pre-trained model from the available pre-trained checkp
   
 **Training arguments**  
 `--img 640` is the width of the images.  
-`--batch ` - batch size
+`--batch ` - batch size.
 `--epochs ` - no of epochs  
 `--data` - Dataset.yaml (`tobacco_data.yaml`) path  
 `--cfg models/model.yaml` is used to set the model we want to train on. I have used yolov5x.yaml, more information could be found [here.](https://github.com/ultralytics/yolov5#pretrained-checkpoints)  
@@ -81,9 +76,9 @@ Box coordinates are in normalized form. x_center and width are divided by image_
 ## Data
 Given for the project:
 
-- [x]Test
-- [x]Train
-- [x]Train-xml
+- Test
+- Train
+- Train-xml
 
 
 Produced:
