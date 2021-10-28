@@ -53,22 +53,13 @@ Now, we have to select a pre-trained model from the available pre-trained checkp
   
 **To Train the model**, run the following line.  
 > **!python yolov5/train.py --img 640 --batch 8 --epochs 10 --data tobacco_data.yaml --cfg models/yolov5x.yaml --name Tobacco-run**
-  A maximum of 10 epcoh was tested, time lacking
+  
+A maximum of 10 epcoh was tested, time lacking
 
-Each line of the txt file contains class x_center y_center width height. Box coordinates are in normalized form. x_center and width are divided by image_width and y_center and height are divided by image_height to get a value between 0 to 1.
+Each line of the txt file contains class: x_center, y_center, width, height.
+Box coordinates are in normalized form. x_center and width are divided by image_width and y_center and height are divided by image_height to get a value between 0 to 1.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
-
-
+  
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
